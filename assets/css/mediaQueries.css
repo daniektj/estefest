@@ -1,0 +1,58 @@
+@media only screen and (min-width: 600px){
+    
+    :root {
+   
+        --h2-size: 36px;
+        --h2-weight: 900;
+        --h3-size: 20px;
+        --h3-weight: 900;
+        --h4-size: 36px;
+        --h4-weight: 900;
+    
+    }
+
+
+    .lineup__sabado31-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        justify-content: center;
+        align-items: center;
+    
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    .lineup__card{
+        width: 375px;
+        height: 230px;
+        margin-bottom: 0px;
+    }
+
+
+
+
+    .lineup__domingo01-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        justify-content: center;
+        align-items: center;
+    
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    .lineup__card02{
+        width: 375px;
+        height: 230px;
+        margin-bottom: 0px;
+    }
+
+
+
+
+
+}
