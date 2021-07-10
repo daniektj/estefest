@@ -117,8 +117,17 @@ header{
     box-sizing: border-box;
 }
 
+.hero__date-location{
+    text-align: center;
+}
+
 .hero__logo-img{
     margin-bottom: 60px;
+    order: -1;
+}
+
+.hero__boletos-container{
+    display: none;
 }
 
 

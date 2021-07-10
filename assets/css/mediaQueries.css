@@ -3,14 +3,12 @@
     :root {
    
         --h2-size: 36px;
-        --h2-weight: 900;
-        --h3-size: 20px;
-        --h3-weight: 900;
+        --h3-size: 28px;
         --h4-size: 36px;
-        --h4-weight: 900;
     
     }
 
+    /* -------- LINEUP -------- */
 
     .lineup__sabado31-container{
         flex-direction: row;
@@ -31,7 +29,7 @@
     }
 
 
-
+    /* -------- LINEUP 02 -------- */
 
     .lineup__domingo01-container{
         flex-direction: row;
@@ -51,6 +49,170 @@
         margin-bottom: 0px;
     }
 
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 990px){
+
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    
+    :root {
+   
+        --h2-size: 48px;
+        --h3-size: 28px;
+        --h4-size: 36px;
+    
+    }
+
+    /* -------- HEADER -------- */
+
+    .header__container{
+        max-width: 1240px;
+    }
+
+    .header__nav{
+        display: inline;
+    }
+    
+    .header__social{
+        display: inline;
+    }
+
+    .header__burger-img{
+        display: none;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        font-weight: 900;
+        margin-left: 30px;
+    }
+
+    nav a:hover{
+        color: var(--color-secondary);
+    }
+
+    .header__social{
+        margin-left: 50px;
+        display: flex;
+        gap: 15px;
+    }
+
+
+/* -------- HERO -------- */
+
+    .hero{
+        height: 680px;
+        overflow: hidden;
+        box-sizing: border-box;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hero__logo-img{
+        width: 397px;
+        height: 491px;
+        order: 0;
+    }
+
+    .hero__date-location{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        /* border: 1px red solid; */
+    }
+
+    .hero__date-location span{
+        margin-bottom: 30px;
+    }
+
+    .hero__date{
+        text-align: center;
+        
+    }
+
+    .hero__location{
+        font-size: 48px;
+        text-align: center;
+        line-height: 45px;
+    }
+
+    .hero__boletos-container{
+        display: inline;
+        width: 350px;
+        text-align: center;
+    }
+
+    .boletos-details{
+        margin-bottom: 30px;
+    }
+
+
+/* -------- LINEUP -------- */
+
+    .section-title{
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    
+    .lineup__sabado31-container{
+        max-width: 1240px;
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        justify-content: center;
+        align-items: center;
+    
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    .lineup__card{
+        width: calc(25% - 30px);
+        height: 295px;
+        margin-bottom: 0px;
+    }
+
+
+/* -------- LINEUP 02 -------- */
+
+    .lineup__domingo01-container{
+        max-width: 1240px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        justify-content: center;
+        align-items: center;
+    
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    .lineup__card02{
+        width: calc(32.5% - 25px);
+        height: 295px;
+        margin-bottom: 0px;
+    }
+
+
+    #amigos, #machete, #explosion, #agua-caliente{
+        width: calc(50% - 40px);
+    }
+  
 
 
 
