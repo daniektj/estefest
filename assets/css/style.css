@@ -13,6 +13,7 @@ html {
 :root {
     --color-background: #111;
     --color-header-bg: #111;
+    --color-cards-bg: #161616;
     --color-text-primary: white;
     --color-secondary: #FFB800;
     --color-tertiary: #2F0808;
@@ -342,6 +343,113 @@ h6{
     object-fit: cover;
     object-position: center center;
 }
+
+
+
+
+
+
+
+.boletos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.card-boletos{
+
+    width: 80vw;
+    height: 250px;
+    background-color: var(--color-cards-bg);
+    border-radius: 32px;
+    padding: 32px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    margin-bottom: 32px;
+        
+}
+
+.card-boletos__button{
+    color: var(--color-text-primary);
+    font-size: 18px;
+    font: 600;
+    background-color: transparent;
+    padding: 8px 36px;
+    border: 2px var(--color-secondary) solid;
+    position: absolute;
+    bottom: 32px;
+}
+
+.card-boletos__button:hover{
+    color: var(--color-cards-bg);
+    background-color: var(--color-secondary);
+}
+
+.card-boletos__list{
+    font-size: 1rem;
+}
+
+
+
+
+
+.zonas{
+    width: 80vw;
+    height: 350px;
+    background-color: var(--color-cards-bg);
+    border-radius: 32px;
+    padding: 32px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zonas__escenario{
+    width: 100%;
+    height: 20%;
+    background-color: #842222;
+    display: grid;
+    place-items: center;
+    border-radius: 32px 32px 0 0;
+}
+
+.zonas__vip{
+    width: 100%;
+    height: 30%;
+    color: var(--color-header-bg);
+    background-color: var(--color-secondary);
+    display: grid;
+    place-items: center;
+}
+
+.zonas__general{
+    width: 100%;
+    height: 50%;
+    color: var(--color-header-bg);
+    background-color: #888;
+    border-radius: 0 0 32px 32px;
+
+
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+
+
+
 
 footer{
     display: flex;
