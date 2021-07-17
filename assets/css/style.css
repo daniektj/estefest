@@ -113,7 +113,7 @@ header{
 .header__nav{
     /* display: none; */
 
-    width: 88vw;
+    width: 75vw;
     height: calc(100vh - 60px);
     background-color: rgba(17, 17, 17, 0.98);
     display: flex;
@@ -130,8 +130,8 @@ header{
     /* box-shadow: -16px 0px 8px rgba(0, 0, 0, 0.8); */
 
     /* border-radius: 0 0 0px 15px; */
-    backdrop-filter: blur(8px);
-    background-color: rgba(0,191,255, 0.075);
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,191,255, 0.085);
     box-shadow: rgba(0, 0, 0, 0.8) -8px 5px 6px;
     border-left: 2px rgba(0, 116, 151, 0.4) solid;
     transition: all 1s;
