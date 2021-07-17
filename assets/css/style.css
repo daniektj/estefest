@@ -113,12 +113,18 @@ header{
     top: 60px;
     right: 0;
 
-    backdrop-filter: blur(10px);
+/*     backdrop-filter: blur(10px);
     background-color: rgba(0,191,255, 0.085);
     box-shadow: rgba(0, 0, 0, 0.8) -8px 5px 6px;
-    border-left: 2px rgba(0, 116, 151, 0.4) solid;
-    transition: all 1s;
+    border-left: 2px rgba(0, 116, 151, 0.4) solid; */
     
+    backdrop-filter: blur(7px);
+    background-color: rgba(0,0,0, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.8) -8px 5px 6px;
+    border-left: 2px rgba(92, 92, 92, 0.4) solid;
+    
+    
+    transition: all 1s;
     z-index: -10;
 
 
@@ -153,7 +159,7 @@ header{
 
     /* border: 3px red dotted; */
 
-    margin-top: 40px;
+    margin-top: 80px;
 
 
 }
@@ -172,6 +178,7 @@ nav a{
     text-decoration: none;
     font-weight: 900;
     text-shadow: 2px 2px 5px black;
+    text-decoration: none;
 }
 
 
@@ -180,8 +187,14 @@ nav a{
 
 .header__social{
     margin-bottom: 180px;
+    filter: drop-shadow(2px 2px 5px #000000);
+    display: flex;
+    gap: 15px;
 }
 
+.header__social a{
+    text-decoration: none;
+}
 
 /* -------- HERO -------- */
 /* -------- HERO -------- */
