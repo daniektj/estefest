@@ -13,7 +13,7 @@ html {
 :root {
     --color-background: #111;
     --color-header-bg: #111;
-    --color-cards-bg: #1b1b1b;
+    --color-cards-bg: #181818;
     --color-text-primary: white;
     --color-secondary: #FFB800;
     --color-tertiary: #2F0808;
@@ -406,7 +406,7 @@ h6{
     height: 350px;
     background-color: var(--color-cards-bg);
     border-radius: 32px;
-    padding: 32px;
+    padding: 24px 16px;
     box-sizing: border-box;
 
     display: flex;
