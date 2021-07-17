@@ -1,5 +1,5 @@
 const burgerButton = document.querySelector('.header__burger');
-const navLinks = document.querySelector('.header__nav');
+const navLinks = document.querySelector('.header__navs-container');
 const textLinks = document.querySelector('.header__nav a')
 
 

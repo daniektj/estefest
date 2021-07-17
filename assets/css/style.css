@@ -4,6 +4,10 @@
     /* box-sizing: border-box; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 :root {
@@ -70,6 +74,8 @@ header{
 
     position: fixed;
     top: 0;
+
+    z-index: 10;
 }
 
 .header__container{
@@ -90,9 +96,33 @@ header{
 }
 
 .header__navs-container{
+/*     display: flex;
+    align-items: center; */
+
+
+    width: 75vw;
+    height: calc(100vh - 60px);
+    background-color: rgba(17, 17, 17, 0.98);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    /* border: 1px red solid; */
+    justify-content: space-between;
+
+
+    position: absolute;
+    top: 60px;
+    right: 0;
+
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,191,255, 0.085);
+    box-shadow: rgba(0, 0, 0, 0.8) -8px 5px 6px;
+    border-left: 2px rgba(0, 116, 151, 0.4) solid;
+    transition: all 1s;
+    
+    z-index: -10;
+
+
+    /* border: 1px purple solid; */
 }
 
 .header__burger{
@@ -113,29 +143,19 @@ header{
 .header__nav{
     /* display: none; */
 
-    width: 75vw;
-    height: calc(100vh - 60px);
-    background-color: rgba(17, 17, 17, 0.98);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 30px;
 
 
-    position: absolute;
-    top: 60px;
-    right: 0;
-    /* border: 1px red solid; */
 
-    /* box-shadow: -16px 0px 8px rgba(0, 0, 0, 0.8); */
+    /* border: 3px red dotted; */
 
-    /* border-radius: 0 0 0px 15px; */
-    backdrop-filter: blur(10px);
-    background-color: rgba(0,191,255, 0.085);
-    box-shadow: rgba(0, 0, 0, 0.8) -8px 5px 6px;
-    border-left: 2px rgba(0, 116, 151, 0.4) solid;
-    transition: all 1s;
-    z-index: -10;
+    margin-top: 40px;
+
+
 }
 
 /* .header__nav:hover{
@@ -144,17 +164,13 @@ header{
 } */
 
 .menu-toggle{
-    position: absolute;
     transform: translate(120%, 0%);
-    z-index: -10;
 }
 
 nav a{
     color: white;
     text-decoration: none;
     font-weight: 900;
-    margin-left: 30px;
-    position: relative;
     text-shadow: 2px 2px 5px black;
 }
 
@@ -163,7 +179,7 @@ nav a{
 
 
 .header__social{
-    display: none;
+    margin-bottom: 80px;
 }
 
 
