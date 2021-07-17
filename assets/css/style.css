@@ -121,7 +121,7 @@ header{
     
     backdrop-filter: blur(7px);
     background-color: rgba(0,0,0, 0.6);
-    box-shadow: rgba(0, 0, 0, 0.8) -8px 5px 6px;
+    box-shadow: rgba(0, 0, 0, 0.5) -8px 5px 6px;
     border-left: 2px rgba(92, 92, 92, 0.4) solid;
     
     
