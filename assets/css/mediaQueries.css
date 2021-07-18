@@ -93,23 +93,47 @@
 
     /* -------- HEADER -------- */
 
+    header{
+        position: relative;
+    }
+
     .header__container{
         max-width: 1240px;
     }
 
     .header__nav{
-        display: inline;
+        all: inherit;
+        
+        display: flex;
+        align-items: center;
+        /* border: 3px purple dotted; */
     }
     
     .header__social{
-        display: inline;
+        all: inherit;
+        display: flex;
+        flex-direction: row;
+        /* width: 100px; */
     }
 
-    .header__burger-img{
+    .header__burger{
         display: none;
     }
 
+    .header__navs-container{
+        all: unset;
+
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-end;
+    
+        /* border: 1px green dotted; */
+            
+        }
+
     nav a{
+        
         color: white;
         text-decoration: none;
         font-weight: 900;
@@ -121,6 +145,7 @@
     }
 
     .header__social{
+        all: inherit;
         margin-left: 50px;
         display: flex;
         gap: 15px;
