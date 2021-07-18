@@ -59,6 +59,25 @@
 
 @media only screen and (min-width: 990px){
 
+
+    
+    /* ---------- SCROLLBAR ---------- */
+
+    body::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+    }
+
+    body::-webkit-scrollbar-track {
+    background: black;        /* color of the tracking area */
+    }
+
+    body::-webkit-scrollbar-thumb {
+    background-color: #2b2b2b;    /* color of the scroll thumb */
+    border-radius: 0px;       /* roundness of the scroll thumb */
+    border: 3px solid black;  /* creates padding around scroll thumb */
+    }
+
+
     body{
         width: 100vw;
         overflow-x: hidden;

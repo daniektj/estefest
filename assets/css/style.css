@@ -357,6 +357,7 @@ h6{
     
     overflow: hidden;
     box-sizing: border-box;
+    margin-top: 40px;
 }
 
 .card-boletos{
@@ -381,6 +382,7 @@ h6{
     color: var(--color-text-primary);
     font-size: 18px;
     font: 600;
+    text-decoration: none;
     background-color: transparent;
     padding: 8px 36px;
     border: 2px var(--color-secondary) solid;
