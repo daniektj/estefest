@@ -137,6 +137,7 @@ header{
     height: 20px;
     background: transparent url('../images/ui-elements/burger.svg') no-repeat center;
     border: 0;
+    cursor: pointer;
 }
 
 .header__burger:hover{
@@ -180,6 +181,7 @@ nav a{
     font-weight: 900;
     text-shadow: 2px 2px 5px black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -390,6 +392,7 @@ h6{
     border: 2px var(--color-secondary) solid;
     position: absolute;
     bottom: 32px;
+    cursor: pointer;
 }
 
 .card-boletos__button:hover{
@@ -503,6 +506,11 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    cursor: pointer;
 }
 
 footer img{
