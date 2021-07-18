@@ -223,6 +223,8 @@ nav a{
 }
 
 .hero__logo-img{
+    width: 178px;
+    height: 199px;
     margin-bottom: 60px;
     order: -1;
 }
