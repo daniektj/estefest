@@ -412,6 +412,7 @@ h6{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 .zonas__escenario{
@@ -443,6 +444,49 @@ h6{
     display: grid;
     place-items: center;
 }
+
+
+
+
+
+
+.guia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* border: 1px red solid; */
+}
+
+.guia-cards{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px purple dotted; */
+}
+
+.guia-cards__container{
+    display: flex;
+    align-items: center;
+    /* border: 2px green dotted; */
+    margin-bottom: 20px;
+}
+
+.guia-cards__image{
+    width: 85px;
+    height: 85px;
+    background-color: var(--color-secondary);
+    border-radius: 100px;
+    margin-right: 16px;
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+
+
+
 
 
 
