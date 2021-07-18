@@ -258,6 +258,51 @@
     }
   
 
+    .boletos{
+        /* border: 1px red solid; */
+    }
+
+    .boletos__cards-container{
+        all: unset;
+
+        width: 1000px;
+        height: 600px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+
+        /* border: 1px red dotted; */
+        box-sizing: border-box;
+    }
+
+    .card-boletos{
+        max-width: 400px;
+        height: calc(50% - 10px);
+        margin-bottom: 0;
+    }
+
+    .zonas{
+        width: calc(100% - 410px);
+        height: 100%;
+        margin-bottom: 0;
+    }
+
+    .guia{
+        margin-top: 40px;
+    }
+
+    .guia-cards{
+        max-width: 280px;
+        text-align: left;
+        /* border: 1px red solid; */
+    }
+
+    .guia__cards-container{
+        display: flex;
+        gap: 20px;
+    }
 
 
 
